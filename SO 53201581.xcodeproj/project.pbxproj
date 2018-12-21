@@ -10,18 +10,32 @@
 		2BD8630A219B702300F10CF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD86309219B702300F10CF1 /* AppDelegate.swift */; };
 		2BD8630C219B702300F10CF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8630B219B702300F10CF1 /* ViewController.swift */; };
 		2BD8630F219B702300F10CF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD8630D219B702300F10CF1 /* Main.storyboard */; };
-		2BD86311219B702400F10CF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD86310219B702400F10CF1 /* Assets.xcassets */; };
 		2BD86314219B702400F10CF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD86312219B702400F10CF1 /* LaunchScreen.storyboard */; };
+		2BD8631C219B710D00F10CF1 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8631B219B710D00F10CF1 /* Song.swift */; };
+		2BD8631E219B8BCC00F10CF1 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8631D219B8BCC00F10CF1 /* CustomCell.swift */; };
+		2BD86320219B8E5600F10CF1 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8631F219B8E5600F10CF1 /* DB.swift */; };
+		2BD86322219B92A200F10CF1 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD86321219B92A200F10CF1 /* Player.swift */; };
+		2BD86324219B9B0000F10CF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD86323219B9B0000F10CF1 /* Assets.xcassets */; };
+		2BD86328219B9B4F00F10CF1 /* 0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2BD86325219B9B4F00F10CF1 /* 0.mp3 */; };
+		2BD86329219B9B4F00F10CF1 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2BD86326219B9B4F00F10CF1 /* 1.mp3 */; };
+		2BD8632A219B9B4F00F10CF1 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2BD86327219B9B4F00F10CF1 /* 2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2BD86306219B702300F10CF1 /* SO 49204823.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SO 49204823.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD86306219B702300F10CF1 /* SO 53201581.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SO 53201581.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD86309219B702300F10CF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BD8630B219B702300F10CF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2BD8630E219B702300F10CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2BD86310219B702400F10CF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BD86313219B702400F10CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BD86315219B702400F10CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD8631B219B710D00F10CF1 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		2BD8631D219B8BCC00F10CF1 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		2BD8631F219B8E5600F10CF1 /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+		2BD86321219B92A200F10CF1 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		2BD86323219B9B0000F10CF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BD86325219B9B4F00F10CF1 /* 0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0.mp3; sourceTree = "<group>"; };
+		2BD86326219B9B4F00F10CF1 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		2BD86327219B9B4F00F10CF1 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +52,7 @@
 		2BD862FD219B702300F10CF1 = {
 			isa = PBXGroup;
 			children = (
-				2BD86308219B702300F10CF1 /* SO 49204823 */,
+				2BD86308219B702300F10CF1 /* SO 53201581 */,
 				2BD86307219B702300F10CF1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +60,45 @@
 		2BD86307219B702300F10CF1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2BD86306219B702300F10CF1 /* SO 49204823.app */,
+				2BD86306219B702300F10CF1 /* SO 53201581.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2BD86308219B702300F10CF1 /* SO 49204823 */ = {
+		2BD86308219B702300F10CF1 /* SO 53201581 */ = {
 			isa = PBXGroup;
 			children = (
 				2BD86309219B702300F10CF1 /* AppDelegate.swift */,
 				2BD8630B219B702300F10CF1 /* ViewController.swift */,
 				2BD8630D219B702300F10CF1 /* Main.storyboard */,
-				2BD86310219B702400F10CF1 /* Assets.xcassets */,
 				2BD86312219B702400F10CF1 /* LaunchScreen.storyboard */,
+				2BD8632B219B9B8500F10CF1 /* Music */,
+				2BD86323219B9B0000F10CF1 /* Assets.xcassets */,
 				2BD86315219B702400F10CF1 /* Info.plist */,
+				2BD8631D219B8BCC00F10CF1 /* CustomCell.swift */,
+				2BD8631B219B710D00F10CF1 /* Song.swift */,
+				2BD8631F219B8E5600F10CF1 /* DB.swift */,
+				2BD86321219B92A200F10CF1 /* Player.swift */,
 			);
-			path = "SO 49204823";
+			path = "SO 53201581";
+			sourceTree = "<group>";
+		};
+		2BD8632B219B9B8500F10CF1 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				2BD86325219B9B4F00F10CF1 /* 0.mp3 */,
+				2BD86326219B9B4F00F10CF1 /* 1.mp3 */,
+				2BD86327219B9B4F00F10CF1 /* 2.mp3 */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2BD86305219B702300F10CF1 /* SO 49204823 */ = {
+		2BD86305219B702300F10CF1 /* SO 53201581 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BD86318219B702400F10CF1 /* Build configuration list for PBXNativeTarget "SO 49204823" */;
+			buildConfigurationList = 2BD86318219B702400F10CF1 /* Build configuration list for PBXNativeTarget "SO 53201581" */;
 			buildPhases = (
 				2BD86302219B702300F10CF1 /* Sources */,
 				2BD86303219B702300F10CF1 /* Frameworks */,
@@ -79,9 +108,9 @@
 			);
 			dependencies = (
 			);
-			name = "SO 49204823";
+			name = "SO 53201581";
 			productName = "SO 49204823";
-			productReference = 2BD86306219B702300F10CF1 /* SO 49204823.app */;
+			productReference = 2BD86306219B702300F10CF1 /* SO 53201581.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2BD86301219B702300F10CF1 /* Build configuration list for PBXProject "SO 49204823" */;
+			buildConfigurationList = 2BD86301219B702300F10CF1 /* Build configuration list for PBXProject "SO 53201581" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2BD86305219B702300F10CF1 /* SO 49204823 */,
+				2BD86305219B702300F10CF1 /* SO 53201581 */,
 			);
 		};
 /* End PBXProject section */
@@ -123,8 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BD86314219B702400F10CF1 /* LaunchScreen.storyboard in Resources */,
-				2BD86311219B702400F10CF1 /* Assets.xcassets in Resources */,
+				2BD86324219B9B0000F10CF1 /* Assets.xcassets in Resources */,
 				2BD8630F219B702300F10CF1 /* Main.storyboard in Resources */,
+				2BD8632A219B9B4F00F10CF1 /* 2.mp3 in Resources */,
+				2BD86328219B9B4F00F10CF1 /* 0.mp3 in Resources */,
+				2BD86329219B9B4F00F10CF1 /* 1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BD8631C219B710D00F10CF1 /* Song.swift in Sources */,
 				2BD8630C219B702300F10CF1 /* ViewController.swift in Sources */,
+				2BD8631E219B8BCC00F10CF1 /* CustomCell.swift in Sources */,
+				2BD86320219B8E5600F10CF1 /* DB.swift in Sources */,
+				2BD86322219B92A200F10CF1 /* Player.swift in Sources */,
 				2BD8630A219B702300F10CF1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +320,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y6GRLLJ38;
-				INFOPLIST_FILE = "SO 49204823/Info.plist";
+				INFOPLIST_FILE = "SO 53201581/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +338,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y6GRLLJ38;
-				INFOPLIST_FILE = "SO 49204823/Info.plist";
+				INFOPLIST_FILE = "SO 53201581/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BD86301219B702300F10CF1 /* Build configuration list for PBXProject "SO 49204823" */ = {
+		2BD86301219B702300F10CF1 /* Build configuration list for PBXProject "SO 53201581" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2BD86316219B702400F10CF1 /* Debug */,
@@ -326,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2BD86318219B702400F10CF1 /* Build configuration list for PBXNativeTarget "SO 49204823" */ = {
+		2BD86318219B702400F10CF1 /* Build configuration list for PBXNativeTarget "SO 53201581" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2BD86319219B702400F10CF1 /* Debug */,
